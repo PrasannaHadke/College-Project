@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Membership</title>
+    <style>
+        .membership-card{
+            width: 100%;
+            height: 80vh;
+            border: 1px solid blue;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .member-card-center{
+            width: 80%;
+            height: 60vh;
+            border: 1px solid red;
+            display: flex;
+            /* flex-direction: column; */
+            justify-content: space-around;
+            align-items: center;
+        }
+
+        .mem{
+            width: 18vw;
+            height: 50vh;
+            /* border: 1px solid red; */
+            background-color: #414141;
+            color: #f3f3f3;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            font-family:  "Poppins", sans-serif;
+            transition: transform 0.8s;
+            box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+        }
+        .mem:hover{
+            cursor: pointer;
+            transform: scale(1.1,1.1);
+        }
+        div h2,h3{
+            text-align: center;
+
+        }
+        div.one{
+            border-bottom: 1px solid gray;
+
+        }
+
+        .two p{
+            /* text-align: center; */
+            padding-left: 18px;
+        }
+
+        .three{
+            background-color: #f4ce14;
+            color: black;
+        }
+
+        .three:hover{
+            background-color: #caa908;
+        }
+    </style>
+</head>
+<body>
+    <div class="membership-card">
+        <h2>Memberships</h2>
+        <div class="member-card-center">
+            <div class="mem">
+                <div class="one">
+                    <h2>3 Months</h2>
+                    <h3>800/Month Rs</h3>
+                </div>
+                <div class="two">
+                    <p>5 Classes</p>
+                    <p>5 In Personal Training Sessions</p>
+                    <p>Full Gym & Facilities Access</p>
+                    <p>Gym Tour & Training Instruction</p>
+                </div>
+                <div class="three">
+                   <h3>Get Started</h3>
+                </div>
+            </div>
+            <div class="mem">
+                <div class="one">
+                    <h2>6 Months</h2>
+                    <h3>
+                        700/Month Rs
+                        </h3>
+                </div>
+                <div class="two">
+                    <p>10 Classes</p>
+                    <p>10 In Personal Training Sessions</p>
+                    <p>Full Gym & Facilities Access</p>
+                    <p>Boxing Ring, Free Events</p>
+                    <p>Gym Tour & Training Instructions</p>
+                </div>
+                <div class="three">
+                   <h3>Get Started</h3>
+                </div>
+            </div>
+            <div class="mem">
+                <div class="one">
+                    <h2>1 Whole Year</h2>
+                    <h3>500/Month Rs</h3>
+                </div>
+                <div class="two">
+                    <p>10 Classes</p>
+                    <p>15 In Personal Training Sessions</p>
+                    <p>Full Gym & Facilities Access</p>
+                    <p>Boxing Ring, Free Events</p>
+                    <p>Gym Tour & Training Instruction</p>
+                </div>
+                <div class="three">
+                   <h3>Get Started</h3>
+                </div>
+            </div>
+
+        </div>
+        
+    </div>
+</body>
+</html>

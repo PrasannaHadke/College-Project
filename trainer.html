@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Trainer</title>
+    <style>
+      .trainer-container {
+        width: 100%;
+        height: 80vh;
+        border: 1px solid red;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+      .trainer-center {
+        width: 80%;
+        height: 80vh;
+        border: 4px solid yellow;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+      }
+      .trainer-left,
+      .trainer-right {
+        width: 35%;
+        height: 38vh;
+        border: 1px solid red;
+        position: relative;
+        /* width: 50%; */
+      }
+
+      .trainer-left img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+      }
+      .trainer-right img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+      }
+
+      .overlay {
+        position: absolute;
+        bottom: 0;
+        left: 100%;
+        right: 0;
+        background-color: #008cba;
+        overflow: hidden;
+        width: 0;
+        height: 100%;
+        transition: 0.5s ease;
+        opacity: 0.5;
+      }
+
+      .trainer-left:hover .overlay,.trainer-right:hover .overlay {
+        width: 100%;
+        left: 0;
+      }
+
+      .text {
+        color: white;
+        font-size: 20px;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+      
+        transform: translate(-50%, -50%); 
+        /* white-space: nowrap; */
+        text-align: center;
+      }
+      
+      .info{
+        display: flex;
+        width: 100%;
+        border: 1px solid red;
+        justify-content: space-around;
+        align-items: flex-end;
+      }
+      .info h2{
+        margin: 0%;
+        border: 1px solid green;
+        width: 100%;
+      }
+      .info .info-one{
+        background-color: yellow;
+        color: #fff;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="trainer-container">
+      <div class="trainer-center">
+        <div class="trainer-left">
+          <img src="images/trainer-male.jpg" alt="" />
+          <div class="info">
+            <h2 class="info-one">Prasanna</h2>
+            <h2 class="info-two">Personal Trainer</h2>
+          </div>
+          <div class="overlay">
+            <div class="text"><p>As a certified personal trainer and nutrition coach, I specialize in helping clients build strength, improve mobility, and feel confident in their bodies</p></div>
+          </div>
+        </div>
+        <div class="trainer-right">
+          <img src="images/trainer-female.jpg" alt="" />
+          <div class="info">
+            <h2 class="info-one">Ziniya</h2>
+            <h2 class="info-two">Yoga Instructor</h2>
+          </div>
+          <div class="overlay">
+            <div class="text"><p>"Certified yoga instructor with 5 years of experience, specializing in Vinyasa and Hatha yoga, promoting holistic well-being and mindfulness."</p></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

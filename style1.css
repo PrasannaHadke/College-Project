@@ -1,0 +1,307 @@
+@media screen and (max-width: 480px) {
+    /* hero-section start */
+
+    .hero-section {
+        width: 100%;
+        height: 80vh;
+        /* border: 1px solid red; */
+        /* display: flex; */
+        /* justify-content: center; */
+        background-image: url(images/1.jpg);
+        background-size: cover;
+    }
+
+    .hero-center {
+        width: 100%;
+        height: 80vh;
+        /* border: 1px solid green; */
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        justify-content: flex-start;
+    }
+
+    .logo-left {
+        width: 100%;
+        height: 8vh;
+        /* border: 1px solid red; */
+    }
+
+    .logo-left .img {
+        display: flex;
+        justify-content: flex-end;
+    }
+
+    .logo-left .img #logo {
+        display: none;
+    }
+
+    .navbar {
+        width: 100%;
+        height: 30vh;
+        /* border: 1px solid yellow; */
+    }
+
+    .navbar ul {
+        display: flex;
+        flex-direction: column;
+        list-style-type: none;
+        justify-content: space-evenly;
+    }
+
+    .navbar ul li a {
+        display: block;
+    }
+
+    .content-area {
+        width: 100%;
+        height: 40vh;
+        /* border: 1px solid red; */
+    }
+
+
+    #join-now {
+        width: 35%;
+        margin: 15px;
+    }
+
+    /* hero-section end */
+
+    .section-aboutus{
+        width: 100%;
+        height: 85vh;
+        /* border: 1px solid red; */
+        /* display: flex; */
+        /* justify-content: center; */
+        background-color: #2e2e2e;
+      }
+      
+      .aboutus{
+        width: 100%;
+        height: 80vh;
+        /* border: 1px solid hotpink; */
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        color: #fafafa;
+      }
+
+      .left-about{
+        width: 100%;
+        height: 50vh;
+        /* border: 1px solid red; */
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+      }
+      
+      .right-about{
+        width: 100%;
+        height: 50vh;
+        /* border: 1px solid red; */
+        display: flex;
+        justify-content: space-around;
+      }
+      /* about section end  */
+      
+      /* slide show */
+      #slideshow {
+        width: 100%;
+        /* height: 90vh; */
+        /* border: 1px solid red; */
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+      #slideshow-images{
+        width: 80%;
+      }
+
+      #slideshow-images img{
+        width: 100%;
+      }
+      
+
+      /* trainer section start */
+
+.trainer-container {
+    width: 100%;
+    height: 120vh;
+    /* border: 1px solid red; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    background-color: #212121;
+  
+  }
+  .trainer-container h2{
+    color:#f3f3f3;
+    margin: 30px;
+  }
+  .trainer-center {
+    width: 100%;
+    height: 100vh;
+    /* border: 4px solid yellow; */
+    display: flex;
+    flex-direction: column;
+    justify-content:space-around;
+  }
+  .trainer-left,
+.trainer-right {
+  width: 100%;
+  height: 30vh;
+  /* border: 1px solid red; */
+  position: relative;
+  /* width: 50%; */
+  /* border-radius: 5px; */
+}
+.info{
+    display: flex;
+    width: 100%;
+    /* border: 1px solid red;  */
+    justify-content: space-around;
+    align-items: flex-end;
+  }
+  .info h2{
+    margin: 0%;
+    /* border: 1px solid green; */
+    width: 100%;
+  }
+  .info .info-one{
+    /* background-color: yellow; */
+    color: #fff;
+    background: #f4ce14;
+    color: #2e2e2e;
+    padding: 5px;
+  }
+  .info .info-two{
+    font-style: italic;
+    padding: 5px;
+  }
+
+  .membership-card{
+    width: 100%;
+    height: 180vh;
+    /* border: 1px solid blue; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #2e2e2e;
+  }
+  
+  .member-card-center{
+    width: 80%;
+    height: 160vh;
+    /* border: 1px solid red; */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+  }
+  
+  .mem{
+    width: 100%;
+    height: 50vh;
+    /* border: 1px solid red; */
+    background-color: #414141;
+    color: #f3f3f3;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    font-family:  "Poppins", sans-serif;
+    transition: transform 0.8s;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  }
+  
+  /* membership section end */
+
+
+  .calchart {
+    height: 155vh;
+    width: 100%;
+    /* border: 5px solid seagreen; */
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    background-color: #212121;
+    color: #eeeeee;
+    }
+    
+    .calchart h2{
+    margin: 15px;
+    }
+    .center-calchart {
+    height: 140vh;
+    width: 78%;
+    /* border: 3px solid goldenrod; */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    /* align-items: center; */
+    position: relative;
+    }
+    
+    .bmi {
+    
+    /* border: 1px solid red; */
+    width: 100%;
+    height: 70vh;
+    /* position: absolute; */
+    margin-top: 45px;
+    background-color: #414141;
+    border-radius: 5px;
+    }
+    .bmitable {
+        /* border: 2px solid green; */
+        overflow: scroll;
+        width: 100%;
+        /* position: absolute; */
+        margin-top: 15px;
+        }
+    
+
+        #btn {
+            width: 100%;
+          }
+
+
+          
+            .contactus-center{
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-around;
+            align-items: center;
+            /* border: 1px solid green;  */
+            }
+
+            .followUs {
+
+                border-radius: 20px;
+                padding: 1px 2px;
+                z-index: 1;
+                
+                }
+
+                .ftr-left{
+                    display: flex;
+  justify-content: center;
+  align-items: center;
+                }
+
+                .links{
+                    display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  flex-direction: column;
+                }
+
+                .inputEmail{
+                    display: none;
+                }
+}

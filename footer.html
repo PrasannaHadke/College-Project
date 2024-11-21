@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"/>
+
+    <title>Footer</title>
+    <style>
+    .contactus {
+        background-color: #fff;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        width: 100%;
+        height: 25vh;
+    }
+    .contactus-center{
+        width: 80%;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        border: 1px solid green;
+    }
+    .followUs {
+    
+        border-radius: 20px;
+        padding: 1px 2px;
+        z-index: 1;
+    
+    }
+    
+    .followUs a {
+        /* display: flex; */
+        /* flex-direction: column; */
+        justify-content: center;
+        align-items: center;
+        padding: 20px 15px;
+        text-decoration: none;
+        font-size: 2.2rem;
+    }
+    
+    .followUs .fa-facebook {
+        color: #4591f3;
+    }
+    
+    .followUs .fa-instagram {
+        color: #5851db;
+    }
+    
+    .followUs .fa-twitter {
+        color: #629bf0;
+    }
+    
+    .followUs a:hover .fa-facebook {
+        color: rgb(32, 169, 255);
+    }
+    
+    .followUs a:hover .fa-twitter {
+        color: #00a9ec;
+    }
+    
+    .followUs a:hover .fa-instagram {
+        color: #c13584;
+    }
+    
+    
+    .inputEmail {
+        width: 20%;
+        background-color: #fff;
+        /* border-radius: 7% 7% 7% 7% /50% 50% 50% 50%; */
+        border-radius: 5px;
+        /* height: 60px; */
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 5px 12px;
+        box-shadow: 2px 5px 30px rgba(0, 0, 0, 0.1);
+        /* margin-top: 30px; */
+    }
+    
+    .inputEmail input {
+        width: 100%;
+        height: 40px;
+        border: none;
+        outline: none;
+        background-color: transparent;
+        font-size: larger;
+    }
+    
+    .btnSend {
+        width: 120px;
+        height: 40px;
+        background-color: #202020;
+        color: #fff;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-transform: uppercase;
+        font-weight: 2px 2px 30px rgba(0, 0, 0, 0.1);
+        font-size: 1rem;
+        border-radius: 20px;
+    }
+    
+    .btnSend:hover {
+        background: goldenrod;
+        color: #000;
+        transition: all ease 0.5s;
+    }
+    
+    .links{
+        /* width: 50%; */
+        border: 1px solid red;
+    }
+   
+    .links h3{
+        text-transform: uppercase;
+    }
+
+    .links a{
+        display: block;
+        margin: 5px;
+        text-decoration: none;
+    }
+</style>
+</head>
+<body>
+    <footer>
+        <div class="contactus" id="four">
+            <div class="contactus-center">
+                <div class="ftr-left">
+                    <div class="address">
+                        <h2>CrossFit</h2>
+                        <p>123 Wellness Way Activeville,<br>
+                            Fitnessland 56789
+                            <br>
+                            United States </p>
+                    </div>
+                    <div class="followUs">
+                      <a href="#"><i class="fa-brands fa-facebook"></i></a>
+                      <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                      <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                    </div>
+                </div>
+    
+                
+    
+                <div class="links">
+                    <h3>Quick Links</h3>
+                    <a href="#">About</a>
+                    <a href="#">Our Team</a>
+                    <a href="#">Memberships</a>
+                    <a href="#">Know Yourself</a>
+                    <a href="#">Contact</a>
+                </div>
+                <div class="inputEmail">
+                  <input type="email" placeholder="Enter Your Email" />
+                  <button type="submit" class="btnSend">SEND</button>
+                </div>
+            </div>
+            
+        </div>
+    </footer>
+</body>
+</html>
